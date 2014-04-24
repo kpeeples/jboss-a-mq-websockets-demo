@@ -29,7 +29,7 @@ See Quick Start Guide in project as ODT and PDF for details on installation. For
         | |__| | |_) | (_) \__ \__ \  / ____ \     | |  | | |__| |
          \____/|____/ \___/|___/___/ /_/    \_\    |_|  |_|\___\_\
 
-         JBoss A-MQ (6.0.0.redhat-009)
+         JBoss A-MQ (mq-6.1.0.redhat-379)
          http://fusesource.com/products/fuse-mq-enterprise/
 
        Hit '<tab>' for a list of available commands
@@ -57,5 +57,6 @@ Released versions
 -----------------
 See the tagged releases for the following verisons of the product:
 
-- v1.0 is initial JBoss A-MQ v6 release.
+- v1.0 is initial JBoss A-MQ v6 release
+- v2.0 Updated for JBoss A-MQ v6.1 release
 
