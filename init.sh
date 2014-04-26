@@ -1,8 +1,8 @@
 #!/bin/sh 
 DEMO="JBoss A-MQ Websocket Demo"
-VERSION=6.0.0
-AMQ=jboss-a-mq-6.0
-AMQ_BIN=jboss-a-mq-6.0.0.GA.zip
+VERSION=6.1.0
+AMQ=jboss-a-mq-6.1.0.redhat-379
+AMQ_BIN=jboss-a-mq-6.1.0.redhat-379.zip
 DEMO_HOME=./target
 AMQ_HOME=$DEMO_HOME/$AMQ
 SERVER_CONF=$AMQ_HOME/etc
@@ -71,7 +71,7 @@ cp $PRJ_DIR/feeder/src/main/config/fuseamq-websocket.xml $SERVER_CONF/activemq.x
 
 echo "  - making sure 'a-mq' for server is executable..."
 echo
-chmod u+x $AMQ_HOME/bin/a-mq
+chmod u+x $AMQ_HOME/bin/amq
 
 echo Now going to build the Feeder project.
 echo
