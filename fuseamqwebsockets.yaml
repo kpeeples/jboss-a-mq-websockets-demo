@@ -1,8 +1,8 @@
 title: JBoss A-MQ WebSocket HTML 5 Demo Quickstart Guide
 github_repo_url: https://github.com/kpeeples/jboss-a-mq-websockets-demo
 technologies: 
-	-Web Socket through STOMP
+  -Web Socket through STOMP
 summary: Demo based on JBoss A-MQ product. using STOMP and Javascript
-Level: Beginner
+level: Beginner
 product: fuse
 author: Kenny Peeples
